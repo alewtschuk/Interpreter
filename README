@@ -1,0 +1,24 @@
+# Project #: IA 3
+
+* Author: Alex Lewtschuk
+* Class: CS354 
+* Semester: Spring 2024
+
+## Overview
+
+In this assignment we worked to expand out Interpreter to encorporate expanded grammar and eval steps.
+
+## Compiling and Using
+
+To run the code please use terminal and run the test class in the IDE of your choice or run the Interpreter.java file using the command `java Interpreter.java` after compiling. 
+
+You can type the program into the Interpreter if you want to assess using that.
+
+## Reflection
+
+This assignment was the most difficult of the three IA assignments that we have had so far. For some reason this perticualr one was a lot more confusing in the beginning on how to handle the extended grammar. The writing of the new Node subclasses was not that bad, but the parser updates were the brunt of my issues. Those and the eval statements. I think the thing that confused me the most with the assignmetn was that the instructions seemed a lot less straightforward than before and I heard that was a bit of a consensus among students when I was working on the project in the Kount center. While this was more difficult I did need a late day to figure out how to proceed. It turns out my main issues were that I was not propperly evaluating the Block section of the grammar and as such my parse tree was decending on the left instead of the right for association testing. There were also some issues with the eval statemetns, but I got those figured out as well. A challenge, but rewarding to see the programs and Interpreter run.
+
+## Reflection IA4
+Compared to the last assignment this was a lot easeier to deal with and once I got a hang of the language requirements for the new grammer additions it was alomost a walk in the park. Seeing the language expand in a way that allows us to use things like conditionals and loop support was sick and honestly really rewarding becuase it finally feels like I am working more with an actual language compared to bits and pieces. Seeing the CGD and Fib tests being actuall programs with full program structure was crazy. The most issues that I ran into for this assignment was refactoring my code to pass the old tests that the last grader said failed, though one of the tests the last time, the equivalency one I belive, passed when I ran it on my end. I had an issue with my switch statement as well in my parseStmt where my parseAssn was parsing incorectly, but it was a simple fix where all I had to do was add another case for it to parse propperly. Part of me wants to work on this more after class ends to build out an entire language. Also it should be noted when running tests, as I dont know how grader is structured the tests pay fail, but if you run them on the interpreter they shbould work just fine. I ran into that issue when I was working on the tests and i used a workaround to get them to work, but all the programs pass in the interperter.
+
+ALSO USING ONE LATE DAY :)
